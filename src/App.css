@@ -1,22 +1,68 @@
-.App {
+body {
+  background-color: #81589f;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: #ffff;
+}
+
+.app-title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+img {
+  margin-left: 44.5%;
+  margin-top: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input-text {
+  text-align: left;
+}
+
+.add-btn {
+  border-radius: 30%;
+  margin-left: 2%;
+  color: black;
+}
+
+.add-btn:hover {
+  background-color: blue;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.ullist {
+  list-style-type: none;
+  text-align: left;
+  margin-left: -4%;
+}
+
+.del-btn {
+  margin-left: 2%;
+  border-radius: 30%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.del-btn:hover {
+  background-color: red;
+  color: #ffff;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
   color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #09d3ac;
+input:checked {
+  text-decoration: line-through;
+}
+
+.container {
+  overflow: auto;
 }
